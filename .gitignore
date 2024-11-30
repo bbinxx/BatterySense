@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+*.env
+
+# Virtual environment directories
+venv/
+env/
+*.venv
+
+# Logs
+*.log
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Caches
+*.cache
+*.pytest_cache/
+*.mypy_cache/
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# Specific to the app (BatterySense example)
+battery_health_checker.spec
